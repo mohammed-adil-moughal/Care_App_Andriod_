@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pills" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill Your Medication Details..."
+        android:textSize="20dp" />
+
+
+
+    <EditText
+
+        android:id="@+id/medicine_name"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+
+        android:imeOptions="actionDone"
+
+        android:hint="@string/name_of_drug"/>
+    <EditText
+
+        android:id="@+id/medicine_dosage"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+
+        android:imeOptions="actionDone"
+
+        android:hint="@string/dosage"/>
+    <EditText
+
+        android:id="@+id/medicine_description"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+
+        android:imeOptions="actionDone"
+
+        android:hint="@string/description"/>
+    <EditText
+
+        android:id="@+id/medicine_whatfor"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+
+        android:imeOptions="actionDone"
+
+        android:hint="@string/whatfor"/>
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fraghome"
+    android:background="@drawable/bga"
+    tools:context="com.example.adil.checkup.Fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout android:id="@+id/fragment_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageemergency"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+             android:layout_gravity="left|top"
+            android:background="@drawable/circle_emergency"
+            android:layout_alignTop="@+id/imagechat"
+            android:layout_alignLeft="@+id/textView22IMPDOC"
+            android:layout_alignStart="@+id/textView22IMPDOC" />
+        <ImageButton
+            android:id="@+id/imagechat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_gravity="left|top"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle_chat"
+            android:layout_below="@+id/textView21HV"
+            android:layout_alignLeft="@+id/textView21HV"
+            android:layout_alignStart="@+id/textView21HV" />
+
+        <ImageButton
+            android:id="@+id/imagerecords"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignLeft="@+id/imagepressure"
+            android:layout_alignStart="@+id/imagepressure"
+            android:layout_alignTop="@+id/imagehospital"
+            android:layout_gravity="left|top"
+            android:background="@drawable/circle_records" />
+
+        <ImageButton
+            android:id="@+id/imagehospital"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignLeft="@+id/imageglucose"
+            android:layout_alignStart="@+id/imageglucose"
+            android:layout_below="@+id/imageglucose"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/circle_hospital" />
+
+        <ImageButton
+            android:id="@+id/imagepressure"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignLeft="@+id/imageprofile"
+            android:layout_alignStart="@+id/imageprofile"
+            android:layout_alignTop="@+id/imageglucose"
+            android:layout_gravity="left|top"
+            android:background="@drawable/circle_pressure" />
+
+        <ImageButton
+            android:id="@+id/imageglucose"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignLeft="@+id/imagemedication"
+            android:layout_alignStart="@+id/imagemedication"
+            android:layout_below="@+id/imagemedication"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/circle_glucose" />
+
+        <ImageButton
+            android:id="@+id/imagemedication"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView16"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/circle_medication" />
+
+        <ImageButton
+            android:id="@+id/imageprofile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imagemedication"
+            android:layout_gravity="left|top"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:background="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/textView17MED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imagemedication"
+            android:layout_alignLeft="@+id/imagemedication"
+            android:layout_alignRight="@+id/imagemedication"
+            android:layout_alignStart="@+id/imagemedication"
+            android:layout_below="@+id/imagemedication"
+            android:text="@string/medication"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView18PROFILE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageprofile"
+            android:layout_alignLeft="@+id/imageprofile"
+            android:layout_alignRight="@+id/imageprofile"
+            android:layout_alignStart="@+id/imageprofile"
+            android:layout_below="@+id/imageprofile"
+            android:text="@string/profile"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView19BG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageglucose"
+            android:layout_alignStart="@+id/imageglucose"
+            android:layout_below="@+id/imageglucose"
+            android:layout_toLeftOf="@+id/imagechat"
+            android:text="@string/bloodglucose"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView20BP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imagepressure"
+            android:layout_alignLeft="@+id/imagepressure"
+            android:layout_alignRight="@+id/imagepressure"
+            android:layout_alignStart="@+id/imagepressure"
+            android:layout_below="@+id/imagepressure"
+            android:text="@string/blood_pressure"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView21HV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imagehospital"
+            android:layout_alignLeft="@+id/imagehospital"
+            android:layout_alignRight="@+id/imagehospital"
+            android:layout_alignStart="@+id/imagehospital"
+            android:layout_below="@+id/imagehospital"
+            android:text="@string/hospital_visit"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView22IMPDOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imagerecords"
+            android:layout_alignLeft="@+id/imagerecords"
+            android:layout_alignRight="@+id/imagerecords"
+            android:layout_alignStart="@+id/imagerecords"
+            android:layout_below="@+id/imagerecords"
+            android:text="@string/important_docs"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView20BP"
+            android:layout_alignEnd="@+id/imageglucose"
+            android:layout_alignLeft="@+id/imageglucose"
+            android:layout_alignRight="@+id/imageglucose"
+            android:layout_alignStart="@+id/imageglucose"
+            android:text="@string/bloodglucose"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:text="Blood Glucose" />
+
+        <TextView
+            android:id="@+id/textView24CHAT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imagechat"
+            android:layout_alignLeft="@+id/imagechat"
+            android:layout_alignRight="@+id/imagechat"
+            android:layout_alignStart="@+id/imagechat"
+            android:layout_below="@+id/imagechat"
+            android:text="@string/chat"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView25EME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageemergency"
+            android:layout_alignLeft="@+id/imageemergency"
+            android:layout_alignRight="@+id/imageemergency"
+            android:layout_alignStart="@+id/imageemergency"
+            android:layout_below="@+id/imageemergency"
+            android:text="@string/emergency"
+
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</FrameLayout>

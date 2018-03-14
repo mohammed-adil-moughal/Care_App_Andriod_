@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/pills"
+            android:title="@string/medication" />
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="@string/record" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/iconshospital"
+            android:title="@string/hospital_visit" />
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/records"
+            android:title="@string/important_docs" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/chat" />
+    </group>
+
+
+</menu>

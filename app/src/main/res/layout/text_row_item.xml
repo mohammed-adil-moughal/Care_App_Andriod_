@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+     Copyright 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+    -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="@dimen/list_item_height"
+android:gravity="center_vertical"
+android:layout_marginLeft="@dimen/margin_medium"
+android:layout_marginRight="@dimen/margin_medium">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_login_bg"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginTop="2dip">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+                           <!--/////////////-->
+            <!--//////////////-->
+
+            <!--<android.support.v7.widget.CardView-->
+
+                <!--android:id="@+id/list_avatar"-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+
+
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:layout_marginTop="5dip"-->
+                <!--android:innerRadius="0dp"-->
+                <!--android:shape="ring"-->
+                <!--android:thicknessRatio="0.9"-->
+                <!--app:cardCornerRadius="40dp">-->
+            <FrameLayout
+                android:id="@+id/list_avatar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/med_circle">
+
+                <ImageView
+                    android:id="@+id/list_avatar_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/med_circle" />
+            </FrameLayout>
+
+            <!--</android.support.v7.widget.CardView>-->
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewdosage"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textViewdosage"
+                android:text="@string/element_text"
+                android:textAlignment="center"
+                android:textColor="@color/bg_register"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+
+                android:text="@string/element_text"
+                android:textColor="@color/bg_register"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="15dip"
+                app:srcCompat="@android:drawable/ic_dialog_info"
+                android:layout_below="@+id/textView"
+                android:layout_toRightOf="@+id/list_avatar"
+                android:layout_toEndOf="@+id/list_avatar"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:id="@+id/textViewdosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_toRightOf="@+id/imageView4"
+                android:text="TextView"
+                android:layout_marginTop="20dip"/>
+
+            <TextView
+                android:id="@+id/textViewTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewdosage"
+                android:layout_alignStart="@+id/textViewdosage"
+                android:layout_below="@+id/textViewdosage"
+                android:layout_marginTop="5dip"
+                android:text="TextView" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="15dip"
+                android:layout_below="@+id/imageView4"
+                android:layout_marginTop="10dip"
+                android:layout_toEndOf="@+id/list_avatar"
+                android:layout_toRightOf="@+id/list_avatar"
+                app:srcCompat="@android:drawable/ic_dialog_alert" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bga"
+    tools:context="com.example.adil.checkup.Fragment.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab_info"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|end"-->
+    <!--android:layout_margin="@dimen/fab_margin"-->
+    <!--android:background="@color/btn_logut_bg"-->
+    <!--android:src="@android:drawable/ic_input_add" />-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dip" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/colorAccent"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="mini"
+        fab:fab_addButtonStrokeVisible="false"
+        fab:fab_expandDirection="left">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/camera_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            fab:fab_colorNormal="@color/half_black"
+            fab:fab_colorPressed="@color/white_pressed" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/gallery_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_gallery"
+            fab:fab_colorNormal="@color/btn_login"
+            fab:fab_colorPressed="@color/white_pressed" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</FrameLayout>

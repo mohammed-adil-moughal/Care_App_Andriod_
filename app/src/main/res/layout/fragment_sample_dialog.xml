@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/actionModeSplitBackground"
+        android:padding="10dip"
+
+        android:text="@string/addmeddetails"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dip" />
+
+
+
+    <EditText
+
+        android:id="@+id/medicine_name"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+
+        android:imeOptions="actionDone"
+        android:textSize="15dip"
+        android:hint="@string/name_of_drug"/>
+    <EditText
+
+        android:id="@+id/medicine_dosage"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+        android:textSize="15dip"
+        android:imeOptions="actionDone"
+
+        android:hint="@string/dosage"/>
+    <EditText
+
+        android:id="@+id/medicine_description"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="text"
+        android:textSize="15dip"
+        android:imeOptions="actionDone"
+
+        android:hint="@string/description"/>
+    <EditText
+
+        android:id="@+id/medicine_whatfor"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:inputType="text"
+
+        android:imeOptions="actionDone"
+
+        android:hint="@string/whatfor"/>
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>

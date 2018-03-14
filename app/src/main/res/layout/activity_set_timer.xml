@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.adil.checkup.Activities.SetTimer">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_login_bg"
+        card_view:cardCornerRadius="4dp"
+       >
+    <TimePicker
+        android:id="@+id/timePickerReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2" />
+
+</android.support.v7.widget.CardView>
+
+<com.rey.material.widget.LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/card_view1"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:id="@+id/view2">
+
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monday"
+        android:id="@+id/checkBoxMonday"
+
+        android:padding="5dip" />
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tuesday"
+            android:id="@+id/checkBoxTuesday"
+       android:layout_below="@+id/checkBoxMonday"
+            android:padding="5dip" />
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wednesday"
+            android:id="@+id/checkBoxWednesday"
+
+            android:padding="5dip" />
+
+
+</com.rey.material.widget.LinearLayout>
+
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friday"
+        android:id="@+id/checkBoxFriday"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/checkBoxThursday"
+        android:layout_toEndOf="@+id/checkBoxThursday"
+        android:padding="5dip" />
+
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saturday"
+            android:id="@+id/checkBoxSaturday"
+        android:layout_below="@+id/checkBoxFriday"
+        android:layout_toLeftOf="@+id/checkBoxFriday"
+        android:layout_toStartOf="@+id/checkBoxFriday"
+        android:padding="5dip"/>
+
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sunday"
+            android:id="@+id/checkBoxSunday"
+        android:layout_alignTop="@+id/checkBoxSaturday"
+        android:layout_toRightOf="@+id/checkBoxThursday"
+        android:layout_toEndOf="@+id/checkBoxThursday"
+        android:padding="5dip"/>
+
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thursday"
+        android:id="@+id/checkBoxThursday"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dip" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/buttonupdatetimer"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/card_view1"
+        android:layout_marginTop="20dip"
+        android:text="Save" />
+</RelativeLayout>

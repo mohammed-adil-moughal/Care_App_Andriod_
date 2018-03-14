@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">CareApp</string>
+
+    <string name="metric_prompt">Choose a metric</string>
+
+    <string name="gender_prompt">Choose a metric</string>
+<string name="no_reminder_set">No Reminder Set</string>
+    <string-array name="metric_arrays">
+        <item>Mmol/L</item>
+        <item>mg/dl</item>
+    </string-array>
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="lang">language</string>
+    <string name="BMI">Body mass index (BMI)</string>
+    <string name="used_by_hospitals">Used by hotels or places of accomodation for your safety</string>
+    <string name="set_as_a_screen_saver">It will be set as a screensaver on your phone for your safety</string>
+    <string name="emergency_info_des">The following information will be used in two ways</string>
+    <string name="TAKE_YOUR_MEDICATION">TAKE YOUR MEDICATION</string>
+    <string name="Previous_Hospital_Visit_Details">Previous Hospital Visit Details</string>
+
+    <string name="medication">Medication</string>
+    <string name="profile">Profile</string>
+    <string name="bloodglucose">Blood glucose</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="name_doctor">Doctor Name</string>
+    <string name="enter_photo_name">Enter Photo Name</string>
+    <string name="details">Details</string>
+    <string name="blood_glucose">Blood Glucose</string>
+    <string name="contact">Contact</string>
+    <string name="Chronic_Illness">Chronic Illness</string>
+    <string name="hospital_visit">Hospital visits</string>
+    <string name="important_docs">Important docs</string>
+    <string name="Next_of_Kin">Next of Kin</string>
+    <string name="language">Click to Select Language</string>
+    <string name="national_id">National Id</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_number">Phone number</string>
+    <string name="chat">Chat</string>
+    <string name="time">Time</string>
+    <string name="fasting">Fasting</string>
+    <string name="hoursafter">2 hour post \n -prandial</string>
+    <string name="emergency">Emergency</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="select_doc_from">Select A Doctor from the list below</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_Cpassword">Confirm Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a registered? Sign up now.</string>
+
+    <string name="facial_recognition">or tap CareApp icon for Facial Recognition.</string>
+    <string name="btn_link_to_login">Already registerd! Login .</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="medication_text_long">Keep track of your medication,never miss a pill</string>
+    <string name="record">Record</string>
+    <string name="recording">recording</string>
+
+    <string name="date">Date</string>
+    <string name="normal">normal</string>
+    <string name="recorded">recorded</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_medications">Medicines</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Hospital Visits</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="Next_Visit">Next Visit</string>
+    <string name="temperature">Temperature</string>
+    <string name="treatment">Treatment</string>
+    <string name="what_was_the_treatment">What was the treatment</string>
+    <string name="Add_Medication">Add Medication</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="what_was_diagnosis">what was the diagnosis</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Medications</item>
+        <item>Records</item>
+        <item>Hospital Visits</item>
+        <item>Records</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="medication_fragment">Medication Fragment</string>
+    <string name="Welcome">Hi</string>
+    <string name="Welcome1">Welcome to CheckAPP </string>
+    <string name="Welcome2">Slide The Navigation Panel To Get Started </string>
+
+    <string name="name_of_drug">Name of drug</string>
+    <string name="dosage">Dosage</string>
+    <string name="description">Notes</string>
+    <string name="add_medication">Add Medication</string>
+
+    <string name="addmeddetails"></string>
+    <string name="whatfor">What For</string>
+    <string name="element_text">Element</string>
+    <string name="grid_layout_manager">Grid Layout Manager</string>
+    <string name="linear_layout_manager">Linear Layout Manager</string>
+    <string name="update">Update</string>
+    <string name="Add_Timer">Add timer</string>
+    <string name="title_activity_set_timer">SetTimer</string>
+    <string name="glucose">What is your Blood Glucose Reading?</string>
+    <string name="bloodpressure">What is your Blood Pressure Reading?</string>
+    <string name="View">View</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="title_activity_notification_view">NotificationView</string>
+    <string name="notificationtitle">Medication Reminder</string>
+    <string name="NotificationReminderTitle">Appointment Reminder</string>
+    <string name="title_activity_blood_glucose">BloodGlucose</string>
+    <string name="title_activity_blood_pressure">BloodPressure</string>
+    <string name="title_activity_add_visit">AddVisitActivity</string>
+    <string name="title_activity_not">Not</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_emergency_info">EmergencyInfo</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="diastolic_error">please enter Diastolic value</string>
+    <string name="systolic_error">please enter Systolic value</string>
+    <string name="pulse_error">please enter pulse value</string>
+    <string name="never_miss_a_visit">Keep track of your Visits,never miss an appointment</string>
+    <string name="pressure_dialoge_form">Fill Your Pressure Reading...</string>
+    <string name="title_activity_activityfor_hfrag">activityforHFrag</string>
+    <string name="authentication">Authentication</string>
+
+    <string name="subscription_key">63d6ebef698a4c7bbac68eca1b818567</string>
+    <string name="endpoint"> https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
+
+    <!-- Main activity -->
+    <string name="detection">Detection</string>
+    <string name="face_verification">Face to Face Verification</string>
+    <string name="person_verification">Face to Person Verification</string>
+    <string name="verification">Verification</string>
+    <string name="identification">Identification</string>
+    <string name="grouping">Grouping</string>
+    <string name="find_similar_faces">Find Similar Faces</string>
+    <string name="detection_description">Detect faces, face landmarks, pose, smile, glasses, gender, and age.</string>
+    <string name="verification_description">Authentication between two faces or between a face and a person.</string>
+    <string name="grouping_description">Group faces based on similarity.</string>
+    <string name="find_similar_face_description">Search for similar-looking faces.</string>
+    <string name="identification_description">Identify the person from a face.</string>
+
+    <!-- Tips to get subscription key shown on main activity-->
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your subscription key with its corresponding endpoint to source file \"app/res/values/strings.xml\" to enable Face API calls.</string>
+
+    <!-- Detection activity -->
+    <string name="image">Image:</string>
+    <string name="select_image">Select\nImage</string>
+    <string name="result">Result:</string>
+    <string name="detect">Detect</string>
+
+    <!-- Verification activity -->
+    <string name="verify">Verify</string>
+    <string name="face_0">Face0:</string>
+    <string name="face_1">Face1:</string>
+    <string name="manage_persons">Manage\nPersons</string>
+    <string name="verification_menu">Verification\nMenu</string>
+
+    <!-- Verification activity -->
+    <string name="face">Face:</string>
+    <string name="group">Group</string>
+
+    <!-- Identification activity -->
+    <string name="identify">Identify</string>
+    <string name="manage_person_groups">Manage\nPerson\nGroups</string>
+    <string name="person_groups">Person Groups</string>
+    <string name="target_image">Target image</string>
+    <string name="faces">Faces in image</string>
+
+    <!-- Person group management activities -->
+    <string name="delete">Delete</string>
+    <string name="done_and_save">Save</string>
+
+    <string name="person_group_list">Person Group List</string>
+    <string name="person_group_list_tip">- Tap on a group to edit.\n- Long tap to delete.</string>
+    <string name="add_person_group">Add Person Group</string>
+
+    <string name="person_group">Person Group</string>
+    <string name="person_group_tip">- Tap on a person to edit.\n- Long press to delete.</string>
+    <string name="person_group_name">Person group name:</string>
+    <string name="type_in_person_group_name_tip">Name (within 30 characters)</string>
+    <string name="add_person">Add Person</string>
+
+    <string name="person">Person</string>
+    <string name="persons">Persons</string>
+    <string name="person_tip">- Long press on a face to delete.</string>
+    <string name="type_in_person_name_tip">Name (within 30 characters)</string>
+    <string name="add_face">Add Face</string>
+    <string name="person_name">Person name:</string>
+    <string name="add_face_to_person">Add Faces To Person</string>
+    <string name="select_face_tip">Select this person\'s faces (if exist) by click on the checkbox.</string>
+
+    <!-- Find similar faces and grouping activity -->
+    <string name="zero_face">Face list: 0 faces in total</string>
+    <string name="target_face">Target face:</string>
+    <string name="all_faces">All Faces:</string>
+    <string name="add_faces">Add\nFaces</string>
+    <string name="similar_face_description">Finding 4 matchFace faces...</string>
+
+    <!-- Common in all activities -->
+    <string name="progress_dialog_title">Please wait</string>
+    <string name="view_log">View Log</string>
+
+    <!-- Select image activity -->
+    <string name="select_an_image">Select an Image</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="select_image_in_album">From Gallery</string>
+
+    <!-- Logs -->
+    <string name="log">Log:</string>
+    <string name="detection_log">Detection Log</string>
+    <string name="verification_log">Verification Log</string>
+    <string name="find_similar_face_log">Find Similar Face Log</string>
+    <string name="grouping_log">Grouping Log</string>
+    <string name="identification_log">Identification Log</string>
+
+    <!-- Warning messages -->
+    <string name="person_name_empty_warning_message">Person name cannot be empty</string>
+    <string name="no_face_to_group">No faces to group</string>
+    <string name="no_person_group_selected_for_identification_warning">No person group selected</string>
+    <string name="face_cannot_be_identified">Unknown person</string>
+    <string name="user_provided_person_name">Person name</string>
+    <string name="user_provided_description_data">User data</string>
+    <string name="user_provided_person_group_name">Person group name</string>
+    <string name="user_provided_person_group_description_data">User data</string>
+
+
+
+</resources>

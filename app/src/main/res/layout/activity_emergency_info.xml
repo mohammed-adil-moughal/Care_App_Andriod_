@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bga"
+    tools:context="com.example.adil.checkup.Activities.EmergencyInfo">
+
+    <Button
+        android:id="@+id/buttonsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Save" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/details"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:layout_marginBottom="20dip"
+            android:padding="16px"
+            android:paddingBottom="16px">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="73dp"
+                android:text="@string/name"
+                tools:text="Name" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView2"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_toEndOf="@+id/textView2"
+                android:layout_toRightOf="@+id/textView2"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="13dp"
+                android:text="@string/name_doctor"
+                tools:text="Doctror Name" />
+
+            <TextView
+                android:id="@+id/textViewDoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewName"
+                android:layout_alignStart="@+id/textViewName"
+                android:layout_alignTop="@+id/textView2"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="23dp"
+                android:text="@string/contact" />
+
+            <TextView
+                android:id="@+id/textViewDocContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView3"
+                android:layout_alignLeft="@+id/textViewDoc"
+                android:layout_alignStart="@+id/textViewDoc"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:text="@string/Chronic_Illness" />
+
+            <EditText
+                android:id="@+id/editTextChronic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewDocContact"
+                android:layout_alignStart="@+id/textViewDocContact"
+                android:layout_below="@+id/textViewDocContact"
+                android:ems="10"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextAllergies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editTextChronic"
+                android:layout_alignStart="@+id/editTextChronic"
+                android:layout_below="@+id/editTextChronic"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editTextAllergies"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:text="Allergies" />
+
+            <EditText
+                android:id="@+id/editTextNextofkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editTextAllergies"
+                android:layout_alignStart="@+id/editTextAllergies"
+                android:layout_below="@+id/editTextAllergies"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editTextNextofkin"
+                android:layout_alignLeft="@+id/textView30"
+                android:layout_alignStart="@+id/textView30"
+                android:text="@string/Next_of_Kin" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editTextNextofKinContact"
+                android:layout_alignLeft="@+id/textView31"
+                android:layout_alignStart="@+id/textView31"
+                android:text="@string/contact"
+                tools:text="Contact" />
+
+            <EditText
+                android:id="@+id/editTextNextofKinContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editTextNextofkin"
+                android:layout_alignStart="@+id/editTextNextofkin"
+                android:layout_below="@+id/editTextNextofkin"
+                android:ems="10"
+                android:inputType="text" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
